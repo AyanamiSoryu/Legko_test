@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Legko_test",
-    "slug": "Legko_test",
+    "slug": "legkotest",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,14 +10,18 @@
     "scheme": "legkotest",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.Legko-test"
+      "bundleIdentifier": "com.anonymous.Legko-test",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.Legko_test"
+      "package": "com.anonymous.Legko_test",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +36,15 @@
         }
       ],
       "react-native-edge-to-edge"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9ee37ecf-0f3d-43e6-b31c-f919d0f581b8"
+      }
+    },
+    "owner": "crazyduck404",
+    "updates": {
+      "url": "https://u.expo.dev/9ee37ecf-0f3d-43e6-b31c-f919d0f581b8"
+    }
   }
 }
