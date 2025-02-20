@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "date": "2025-02-10",
+    "title": "Symphony Orchestra Concert",
+    "description": "Performance of works by Tchaikovsky and Beethoven."
+  },
+  {
+    "id": 2,
+    "date": "2025-02-12",
+    "title": "Contemporary Art Exhibition",
+    "description": "Works by young artists in the abstraction genre."
+  },
+  {
+    "id": 3,
+    "date": "2025-02-15",
+    "title": "Street Food Festival",
+    "description": "The best gastronomic discoveries of the city."
+  },
+  {
+    "id": 4,
+    "date": "2025-02-18",
+    "title": "Scientific Conference",
+    "description": "Talks on new technologies in the field of AI."
+  },
+  {
+    "id": 5,
+    "date": "2025-02-20",
+    "title": "Theatrical Premiere",
+    "description": "A new drama production on the theater stage."
+  },
+  {
+    "id": 6,
+    "date": "2025-02-22",
+    "title": "Japanese Culture Festival",
+    "description": "Cosplay, anime, and traditional Japanese performances."
+  },
+  {
+    "id": 7,
+    "date": "2025-02-25",
+    "title": "Rock Band Concert",
+    "description": "Live music and new hits."
+  },
+  {
+    "id": 8,
+    "date": "2025-02-28",
+    "title": "Literary Evening",
+    "description": "Discussion of a new novel by a famous writer."
+  },
+  {
+    "id": 9,
+    "date": "2025-03-03",
+    "title": "Opening of a New Art Space",
+    "description": "Project presentation and exhibition tour."
+  },
+  {
+    "id": 10,
+    "date": "2025-03-05",
+    "title": "Board Games Tournament",
+    "description": "Competitions in chess, Go, and Magic: The Gathering."
+  },
+  {
+    "id": 11,
+    "date": "2025-03-07",
+    "title": "Yoga Marathon",
+    "description": "Sessions for beginners and advanced practitioners."
+  },
+  {
+    "id": 12,
+    "date": "2025-03-10",
+    "title": "Calligraphy Masterclass",
+    "description": "Basics of handwriting and Japanese calligraphy techniques."
+  },
+  {
+    "id": 13,
+    "date": "2025-03-12",
+    "title": "Retro Car Exhibition",
+    "description": "The best cars of the 20th century in one place."
+  },
+  {
+    "id": 14,
+    "date": "2025-03-15",
+    "title": "Play 'Romeo and Juliet'",
+    "description": "A classic production with a new interpretation."
+  },
+  {
+    "id": 15,
+    "date": "2025-03-18",
+    "title": "Open Lecture on Space",
+    "description": "The latest discoveries about distant galaxies."
+  },
+  {
+    "id": 16,
+    "date": "2025-03-20",
+    "title": "Jazz Music Festival",
+    "description": "Performances by the best jazz bands."
+  },
+  {
+    "id": 17,
+    "date": "2025-03-22",
+    "title": "City Cycling Marathon",
+    "description": "A route through the city's scenic streets."
+  },
+  {
+    "id": 18,
+    "date": "2025-03-25",
+    "title": "Street Theater Festival",
+    "description": "Pantomime, acrobatics, and fire shows."
+  },
+  {
+    "id": 19,
+    "date": "2025-03-28",
+    "title": "Independent Film Festival",
+    "description": "Screening of auteur films and meetings with directors."
+  },
+  {
+    "id": 20,
+    "date": "2025-03-30",
+    "title": "Culinary Masterclass",
+    "description": "Secrets of making pasta and risotto."
+  },
+  {
+    "id": 21,
+    "date": "2025-04-02",
+    "title": "Bowling Tournament",
+    "description": "Competitions among amateurs and professionals."
+  },
+  {
+    "id": 22,
+    "date": "2025-04-05",
+    "title": "Vintage Clothing Exhibition",
+    "description": "Rare finds from the past century."
+  },
+  {
+    "id": 23,
+    "date": "2025-04-08",
+    "title": "Street Music Festival",
+    "description": "Performances by talented local artists."
+  },
+  {
+    "id": 24,
+    "date": "2025-04-12",
+    "title": "Tabletop RPG Day",
+    "description": "D&D, Pathfinder, and original storylines."
+  },
+  {
+    "id": 25,
+    "date": "2025-04-15",
+    "title": "Argentine Tango Flashmob",
+    "description": "Join the dance movement!"
+  },
+  {
+    "id": 26,
+    "date": "2025-04-18",
+    "title": "10 km Charity Run",
+    "description": "A sports run for a good cause."
+  },
+  {
+    "id": 27,
+    "date": "2025-04-20",
+    "title": "Cybersecurity Conference",
+    "description": "Current threats and protection methods."
+  },
+  {
+    "id": 28,
+    "date": "2025-04-23",
+    "title": "Gastronomic City Tour",
+    "description": "Try the best local dishes."
+  },
+  {
+    "id": 29,
+    "date": "2025-04-26",
+    "title": "Hot Air Balloon Festival",
+    "description": "Colorful flights and unique shows."
+  },
+  {
+    "id": 30,
+    "date": "2025-04-29",
+    "title": "Digital Art Exhibition",
+    "description": "New technologies in the world of visual art."
+  }
+]
