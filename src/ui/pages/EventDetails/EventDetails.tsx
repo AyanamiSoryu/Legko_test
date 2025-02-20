@@ -1,6 +1,15 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Image, SafeAreaView, ScrollView, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
+import {
+  FlatList,
+  Image,
+  SafeAreaView,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  useWindowDimensions,
+  View
+} from 'react-native';
 
 import Calendar from '../../../assets/icons/fluent_calendar-24-filled.svg';
 import EmptyHeartIcon from '../../../assets/icons/heart.svg';
@@ -24,8 +33,12 @@ const EventDetails = () => {
   const navigation = useAppNavigation();
   const { favorites, toggle } = useFavorites();
   const isFavorite = favorites.includes(`${id}`);
-
+  const scrollRef = useRef<ScrollView | null>(null);
   const { width } = useWindowDimensions();
+
+  const scrollToTop = () => {
+    scrollRef.current?.scrollTo({ animated: true, y: 0 });
+  };
 
   const eventsData = useMemo(() => {
     return chunkArray(i18n.language === 'ru' ? ruMockData : enMockData, 10).map((events) => {
@@ -42,14 +55,16 @@ const EventDetails = () => {
             date: event.date,
             img,
             size: randomSize,
-            onSelect: () =>
+            onSelect: () => {
+              scrollToTop();
               navigation.navigate('EventDetails', {
                 id: event.id,
                 date: event.date,
                 title: event.title,
                 description: event.description,
                 image: img
-              })
+              });
+            }
           };
         })
       };
@@ -58,7 +73,7 @@ const EventDetails = () => {
 
   return (
     <SafeAreaView style={styles.root}>
-      <ScrollView style={styles.scroll}>
+      <ScrollView style={styles.scroll} ref={scrollRef}>
         <View style={styles.imageAndButtonsContainer}>
           <View style={styles.buttonsArea}>
             <TouchableOpacity style={styles.button} onPress={() => navigation.goBack()}>

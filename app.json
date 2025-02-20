@@ -2,7 +2,7 @@
   "expo": {
     "name": "Legko_test",
     "slug": "legkotest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -13,6 +13,9 @@
       "bundleIdentifier": "com.anonymous.Legko-test",
       "runtimeVersion": {
         "policy": "appVersion"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {

@@ -6,11 +6,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    height: 40,
+    // height: 40,
     // padding: 12,
     borderWidth: 1,
     borderRadius: 31,
-    borderColor: '#00000033',
+    // borderColor: '#00000033',
     backgroundColor: '#F0F0F0',
     width: '100%',
     overflow: 'hidden'
@@ -19,15 +19,17 @@ const styles = StyleSheet.create({
   textInput: {
     width: '100%',
     display: 'flex',
-    color: 'rgba(0,0,0,0.6)',
+    color: '#00000099',
     height: 20,
-    backgroundColor: '#F0F0F0',
+    // backgroundColor: '#F0F0F0',
+    backgroundColor: 'transparent',
     // fontFamily: 'Inter',
     fontSize: 16,
     lineHeight: 16,
     // marginLeft: 10
     padding: 24,
-    paddingRight: 30
+    paddingRight: 30,
+    textAlignVertical: 'center'
   },
 
   searchButton: {
