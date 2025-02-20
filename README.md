@@ -125,8 +125,8 @@ The application uses Redux for managing global state.
 
 ## Localization
 The application supports multilingual functionality using `react-i18next`.
-- Default language is English.
-- Language can be switched to Russian via `LanguageSelection` component.
+- Default language is Russian.
+- Language can be switched to English via `LanguageSelection` component.
 - Uses mock data files (`eventsEng.json`, `eventsRu.json`).
 
 
