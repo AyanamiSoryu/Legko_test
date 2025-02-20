@@ -19,10 +19,10 @@ const styles = StyleSheet.create({
   textInput: {
     width: '100%',
     display: 'flex',
-    color: '#00000099',
+    color: 'rgba(0,0,0,0.6)',
     height: 20,
     backgroundColor: '#F0F0F0',
-    fontFamily: 'Inter',
+    // fontFamily: 'Inter',
     fontSize: 16,
     lineHeight: 16,
     // marginLeft: 10

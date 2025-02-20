@@ -1,13 +1,12 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import * as RNLocalize from 'react-native-localize';
 
+// import { getLocales } from 'react-native-localize';
 import en from './locales/en.json';
 import ru from './locales/ru.json';
 
 const fallbackLng = 'ru';
-const locales = RNLocalize.getLocales();
-const deviceLanguage = locales[0]?.languageCode || fallbackLng;
+// const deviceLanguage = getLocales()[0]?.languageCode || fallbackLng;
 
 i18n.use(initReactI18next).init({
   compatibilityJSON: 'v4',
@@ -15,7 +14,7 @@ i18n.use(initReactI18next).init({
     ru: { translation: ru },
     en: { translation: en }
   },
-  lng: deviceLanguage,
+  lng: fallbackLng,
   fallbackLng,
   interpolation: {
     escapeValue: false

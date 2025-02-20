@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   },
 
   searchContainer: {
-    flex: 1,
+    // flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
     // alignItems: 'center',

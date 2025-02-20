@@ -118,15 +118,17 @@ const EventList = () => {
           <View style={styles.searchContainer}>
             {searchResult.map((event) => {
               return (
-                <EventCard
-                  id={event.id}
-                  date={event.date}
-                  title={event.title}
-                  description={event.description}
-                  size={event.size}
-                  img={event.image}
-                  onSelect={event.onSelect}
-                />
+                <View key={`${event.id}`}>
+                  <EventCard
+                    id={event.id}
+                    date={event.date}
+                    title={event.title}
+                    description={event.description}
+                    size={event.size}
+                    img={event.image}
+                    onSelect={event.onSelect}
+                  />
+                </View>
               );
             })}
           </View>
