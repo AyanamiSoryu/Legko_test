@@ -9,7 +9,8 @@ const styles = StyleSheet.create({
     gap: 10
   },
   text: {
-    fontSize: 20
+    fontSize: 20,
+    color: '#747474'
   }
 });
 

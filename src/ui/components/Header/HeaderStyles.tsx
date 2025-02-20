@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
 
   languageSelector: {
     position: 'absolute',
-    top: 5,
-    right: 5
+    top: 60,
+    right: 10
   },
 
   text: {

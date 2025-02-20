@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: '#f4f4f4',
-    paddingBottom: 12
+    paddingBottom: 24
   },
 
   imageAndButtonsContainer: {
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     zIndex: 10,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
-    paddingHorizontal: 16,
+    // paddingHorizontal: 16,
     paddingTop: 16,
     justifyContent: 'center',
     marginTop: 380
@@ -43,7 +43,8 @@ const styles = StyleSheet.create({
   },
 
   cardInfoTextContainer: {
-    display: 'flex'
+    display: 'flex',
+    paddingHorizontal: 16
   },
 
   scroll: {
@@ -84,8 +85,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     paddingTop: 24,
-    gap: 16,
-    height: 1000
+    gap: 16
+    // height: 1000
   },
 
   description: {
@@ -142,150 +143,3 @@ const styles = StyleSheet.create({
 });
 
 export default styles;
-
-// import { Dimensions, Platform, StatusBar, StyleSheet } from 'react-native';
-//
-// const windowWidth = Dimensions.get('window').width;
-// const windowHeight = Dimensions.get('window').height;
-// const buttonsTopPadding = Platform.OS === 'android' && StatusBar.currentHeight ? StatusBar.currentHeight + 8 : 62;
-//
-// const styles = StyleSheet.create({
-//   root: {
-//     flex: 1
-//   },
-//
-//   image: {
-//     flex: 1,
-//     // height: 363,
-//     height: windowHeight / 100,
-//     width: windowWidth,
-//     // height: "100%",
-//     overflow: 'hidden'
-//   },
-//
-//   cardInfoContainer: {
-//     // paddingLeft: 12,
-//     // paddingRight: 12,
-//     flex: 1,
-//     marginTop: 335,
-//     backgroundColor: '#FFFFFF',
-//     zIndex: 10,
-//     borderTopLeftRadius: 24,
-//     borderTopRightRadius: 24
-//   },
-//
-//   cardInfoTextContainer: {
-//     paddingLeft: 12,
-//     paddingRight: 12,
-//     flex: 1
-//   },
-//
-//   scroll: {
-//     flex: 1
-//   },
-//
-//   nameDateTagsArea: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     paddingTop: 16
-//     // paddingLeft: 12,
-//     // paddingRight: 12,
-//   },
-//
-//   nameOfCard: {
-//     fontFamily: 'Inter',
-//     fontWeight: '600',
-//     fontSize: 20,
-//     lineHeight: 28,
-//     letterSpacing: 0,
-//     textAlign: 'left',
-//     color: '#000000'
-//   },
-//
-//   dateArea: {
-//     flex: 1,
-//     flexDirection: 'row',
-//     gap: 8,
-//     alignItems: 'center'
-//   },
-//
-//   date: {
-//     paddingTop: 4,
-//     fontFamily: 'Inter',
-//     fontWeight: '600',
-//     fontSize: 16,
-//     lineHeight: 20,
-//     letterSpacing: 0,
-//     textAlign: 'left',
-//     color: '#00000099'
-//   },
-//
-//   descriptionArea: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     // paddingRight: 12,
-//     // paddingLeft: 12,
-//     paddingTop: 24,
-//     gap: 16
-//   },
-//
-//   description: {
-//     fontFamily: 'Inter',
-//     fontWeight: '600',
-//     fontSize: 16,
-//     lineHeight: 20,
-//     textAlign: 'left',
-//     color: '#000000CC'
-//   },
-//
-//   descriptionText: {
-//     fontFamily: 'Inter',
-//     fontWeight: '400',
-//     fontSize: 14,
-//     lineHeight: 20,
-//     textAlign: 'left',
-//     color: '#000000'
-//   },
-//
-//   placeOfEventText: {
-//     paddingTop: 24,
-//     // paddingRight: 12,
-//     // paddingLeft: 12,
-//     fontFamily: 'Inter',
-//     fontWeight: '600',
-//     fontSize: 16,
-//     lineHeight: 20,
-//     textAlign: 'left',
-//     color: '#000000'
-//   },
-//
-//   buttonsArea: {
-//     flex: 1,
-//     justifyContent: 'space-between',
-//     width: '100%',
-//     flexDirection: 'row',
-//     position: 'absolute',
-//     top: buttonsTopPadding,
-//     zIndex: 3,
-//     paddingLeft: 12,
-//     paddingRight: 12
-//   },
-//   //
-//   button: {
-//     display: 'flex',
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//     width: 40,
-//     height: 40,
-//     borderRadius: 20,
-//     backgroundColor: '#00000099'
-//   },
-//   //
-//   heartAndShareButtonsGroup: {
-//     display: 'flex',
-//     flexDirection: 'row',
-//     gap: 12
-//   }
-// });
-//
-// export default styles;
